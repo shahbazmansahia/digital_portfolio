@@ -27,7 +27,7 @@
     </nav>
 
     <!-- Showcase Section-->
-
+    <!-- Image provided by Douglas Schneiders on Unsplash. Sourced from : https://images.unsplash.com/photo-1735437629103-0fac198c7c2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-->
     <section id="showcase" class= "py-5">
         <div class="container">
             <div class="row justify-content-end">
@@ -62,7 +62,7 @@
                             <a href="#services" class="nav-link text-secondary">Oracle</a>
                     </li>
                     <li class="nav-item">
-                            <a href="#contact" class="nav-link text-secondary">Vulgarized Dreambooth</a>
+                            <a href="#Dreambooth" class="nav-link text-secondary">Vulgarized Dreambooth</a>
                     </li>
                 </ul>
             </div>
@@ -106,14 +106,15 @@
                 <div class="col-lg-10 col-md-12">
                     <!-- Project Summary -->
                     <h4 class="display-6 text-light mb-5">Project Summary</h4>
-                    <p class="text-white">Fake art exposed was a game jam project created for the HuggingFace Open Source Game Jam in 2023. This project utilized a bleeding-edge model called 'LEDITS' which was undergoing a soft release when the game jam was occuring. I implemented batch scripting and automated image-to-image generation using custom prompts that we wished to implement on a dataset of 1000 public domain artworks. We managed to generate a total of 30,000 images from which curated our game assets. This was all done within a span of 3 days. In addition to the code, I also generated the cat assets (AristoCats) using stable diffusion. 
-                    <br>This project intended to question what is and isn't 'True Art' and wished to contribute to the ongoing discussions about generative AI artwork. 
+                    <p class="text-white">Fake art exposed was a game jam project created for the HuggingFace Open Source Game Jam in 2023. This project utilized a bleeding-edge model called 'LEDITS' which was undergoing a soft release when the game jam was occuring. I implemented batch scripting and automated image-to-image generation using custom prompts that we wished to implement on a dataset of 1000 public domain artworks. We managed to generate a total of 30,000 images from which we curated our game assets. This was all done within a span of 3 days. In addition to the code, I also generated the cat assets (AristoCats) using stable diffusion. 
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project intended to question what is and isn't 'True Art' and wished to contribute to the ongoing discussions about generative AI artwork. This project showcases my research and development skills. I was able to utilize cli scripts for os layer scripts, able to set up and automate model image generation using the gradio app and was able to contribute art assets for my team, in bulk. The greatest challenges we faced in this project were the time constraints and the model code. We needed to understand the scripts created by HuggingFace to make the model suit our purposes, and then get it to generate the image concepts we needed for our project. We acheived this by utilizing 2 computers to generate the images at the same time. The scripts was tested and run on a computer with a GTX 1080 while an environment and code were set up for it to be generated on a GTX 4090 computer as well. I handled all of the image generations and provided the interface to connect the desired themes provided in text formats, to the gradio app and LEDITS model. I feel this project showcases my ability to work consistently and achieve results with tight deadlines and my resourcefulness.
+                    <br>
                     <br>The game was tied with the winner of the game jam in engagement metrics.
                     <br>
                     <br>The game can be experienced on itch.io <a href="https://mrpergerson.itch.io/fakeartexposed" target="_blank">here</a>.
                     </p>
                     <br>
-                    <p class="text-white""><strong>NOTE:</strong> The code exists in jupyter notebook format. The notebook executes a gradio app which has been tweaked to suit our purpose. All code written by me is marked in explicit code blocks labelled "CUSTOM CODE" in comments, and in notebook headings as well.</p>
+                    <p class="text-white"><strong>NOTE:</strong> The code exists in jupyter notebook format. The notebook executes a gradio app which has been tweaked to suit our purpose. All code written by me is marked in explicit code blocks labelled "CUSTOM CODE" in comments, and in notebook headings as well.</p>
                     
                 </div>
     
@@ -121,150 +122,38 @@
         </div>
     </section>
 
-    <section id="services" class= "dark-overlay">
-        <h3 class= "display-2 text-center text-light pt-5">Offered Services</h3>
+    <section id="services" class= "dark-overlay pb-5">
+        <!-- Image provided by Anita Austvika on Unsplash. Sourced from : https://unsplash.com/photos/a-bush-with-pink-flowers-and-green-leaves-6xqQ9whjU0c-->
+        <h3 class= "display-2 text-center text-light pt-5">Oracle</h3>
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-light">
-                            <h3>Personal Photoshoots</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class= "table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Description</th>
-                                            <th>In Studio</th>
-                                            <th>Off-Site</th>
-                                        </tr>
-                                    </thead>
     
-                                    <tbody>
-                                        <tr>
-                                            <td>Service Charge</td>
-                                            <td>$20 per hour</td>
-                                            <td>$35 per hour</td>
-                                        </tr>
-    
-                                        <tr>
-                                            <td>Contract Fee</td>
-                                            <td>$200</td>
-                                            <td>$300</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Accessory Add-on (optional)</td>
-                                            <td colspan= "2">$40 per product</td>
-                                        </tr>
-                                        <tr>
-                                            <td class= "p-4">Post-Production Editing</td>
-                                            <td class= "text-center p-4" colspan= "2">$50</td>                                        
-                                        </tr>
-                                        <tr class= "table-dark text-light">
-                                            <td><strong>Total*</strong></td>
-                                            <td><strong>$290</strong></td>
-                                            <td><strong>$530</strong></td>
-                                        </tr>
-    
-                                    </tbody>
-                                </table>
-                            </div>
-                            
-                        <p id= "footnote" class="lead text-muted"><small>*based on the average rate charged</small></p>                            
-                        </div>
-                    </div>
+                <div class="col-lg-10 col-md-12 bg-dark">
+                    <!-- Project Summary -->
+                    <h4 class="display-6 text-light mb-5 pt-4">Project Summary</h4>
+                    <p class="text-white pb-4">The Oracle project was created in close collaboration with Professor James Morgan and Thomas Asmuth. Prof. Morgan had a project in mind where we embraced the black-box nature of AI models and used them to create interactive media. He had extensive knowledge about tarot cards and fortune telling and wished to make an AI model perform that task. To successfully implement this project, we needed domain expertise in AI, web development, and fortune telling. I worked on the technical implementation of the model, the internal hijacking component for it to perform fortune telling and the front end of the application. The project was entirely built using p5.js and ml5.js.  
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I faced a number of challenges in this project. At first, we had to study the model input and output format to see how we could get it to output results in the desired tarot card format. I had to conduct extensive data analysis of model outputs and its relation to detected objects to see how we could adapt it for our project. This involved trying to find a balance between overlapping detections and handling edge cases for object detections. The project was extremely sensitive to these changes as if it was not done correctly, it would lead to reduced variance and diversity in the results. I also wrote scripts for generating and storing the detection values in csv format to conduct data analysis and improve our product. This project allowed me to tap into my knowledge about AI models, data analysis and web development. I was initially extremely skeptical of all things astrological and fortune-related. Upon experiencing a reading myself, I can attest that it is a very fun experience and has some magic to it.
+
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is important to note that this project requires an active fortune teller to function as intended. Without that domain knowledge, all it does is return obscure references to tarot cards created by the professors. This is also why it is referred to and was published as 'Fortune Telling as Co-Creative Model' at the International Conference for Computational Creativity in 2024. My work as a full stack developer has been acknowledged in this project. All of the code provided in the github repository has been written by me. 
+                    <br>The associated paper can be accessed <a href="https://computationalcreativity.net/iccc24/papers/ICCC24_paper_191.pdf" target="_blank">here</a>.
+                    </p>  
+                    <br>
+                    <p class="text-white"><strong>NOTE:</strong> The most recent version of the code exists in the 'Shahbaz/card_logger' branch. You may need to navigate to it. Following that, the code can be accessed in 'p5sketches/mltest5_speech_but_better/mltest5_speech_but_better.js'. All of the code in that file has been written by me.</p>
+                                      
+                    
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-light">
-                            <h3>Wedding Photoshoots</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class= "table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Description</th>
-                                            <th>Cost</th>
-                                        </tr>
-                                    </thead>
-    
-                                    <tbody>
-                                        <tr>
-                                            <td>Service Charge</td>
-                                            <td>$40 per hour</td>
-                                            
-                                        </tr>
-    
-                                        <tr>
-                                            <td>Contract Fee</td>
-                                            <td>$300</td>
-                                            
-                                        </tr>
-
-                                        <tr>
-                                            <td>Post-Production Editing</td>
-                                            <td>$100</td>                                        
-                                        </tr>
-                                        <tr class= "table-dark text-light">
-                                            <td><strong>Total*</strong></td>
-                                            <td><strong>$640</strong></td>
-                                        </tr>
-    
-                                    </tbody>
-                                </table>
+                <div class="col-lg-2 col-md-6 p-3 m-0">
+                    <!-- GitHub Link Card -->
+                    <div class="card border-secondary mb-4" style="max-width: 200px; height: auto;">
+                        <a href="https://github.com/ruby-yacht/tranzcom.git" target="_blank" class = "text-decoration-none">
+                           <!-- <i class="fas fa-github text-primary" style="font-size: 40px;"></i> -->
+                            <img src="https://raw.githubusercontent.com/ruby-yacht/tranzcom/refs/heads/shahbaz/card_logger/sigil-sm/01-eye.png" alt="The symbol for the Eye of Horus" width="40%" class="w-100 h-auto d-block my-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark">GitHub</h5>
+                                <p class="card-text text-dark">Oracle Project Code</p>
                             </div>
-                            
-                        <p id= "footnote" class="lead text-muted"><small>*based on the average rate charged</small></p>                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-light">
-                            <h3>Cinematic Video-Shoots</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class= "table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Description</th>
-                                            <th>Cost</th>
-                                        </tr>
-                                    </thead>
-    
-                                    <tbody>
-                                        <tr>
-                                            <td>Service Charge</td>
-                                            <td>$20 per hour</td>
-                                            
-                                        </tr>
-    
-                                        <tr>
-                                            <td>Contract Fee</td>
-                                            <td>$200</td>
-                                            
-                                        </tr>
-
-                                        <tr>
-                                            <td>Post-Production Editing</td>
-                                            <td>$10 per hour shot</td>                                        
-                                        </tr>
-                                        <tr class= "table-dark text-light">
-                                            <td><strong>Total*</strong></td>
-                                            <td><strong>$1100</strong></td>
-                                        </tr>
-    
-                                    </tbody>
-                                </table>
-                            </div>
-                            
-                        <p id= "footnote" class="lead text-muted"><small>*based on the average rate charged</small></p>                            
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -272,7 +161,65 @@
         </div>
     </section>
 
+    <section id="Dreambooth" class="py-5 bg-dark">
+        <div class="container">
+          <div class="row mb-4">
+            <h3 class="display-2 text-light text-center mb-0 pb-5">Vulgarized Dreambooth</h3>
+            <div class="col-lg-4 col-md-6 px-5 m-0 mx-auto">
+              <!-- GitHub Link Card -->
+              <a href="https://github.com/shahbazmansahia/Ledits_Batch_Script.git" target="_blank" class="text-decoration-none">
+                <div class="card border-secondary mb-4" style="max-width: 200px;">
+                    <img src="./img/00170-698077531.png" alt="" width="40%" class="w-100 h-auto d-block my-3">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-dark">Marcell Leath</h5>
+                    <p class="card-text text-dark">Vulgarized Dreambooth</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+      
+            <div class="col-lg-4 col-md-6 px-5 m-0 mx-auto">
+                <div class="card border-secondary mb-4" style="max-width: 200px; height: auto;">
+                      <img src="./img/00019-3674894317.png" alt="" width="40%" class="w-100 h-auto d-block my-3">
+                      <div class="card-body text-center">
+                        <h5 class="card-title text-dark">Self Portrait</h5>
+                        <p class="card-text text-dark">Vulgarized Dreambooth</p>
+                      </div>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 px-5 m-0 mx-auto">
+              <div class="card border-secondary mb-4" style="max-width: 200px; height: auto;">
+                  <img src="./img/00025-3005608839.png" alt="" width="40%" class="w-100 h-auto d-block my-3">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-dark">Cole Pergerson</h5>
+                    <p class="card-text text-dark">Vulgarized Dreambooth</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Project Summary section -->
+          <h4 class="display-6 text-light mb-5">Project Summary</h4>
+          
+          <p class="text-white pb-4">Vulgarized Dreambooth has been a passion project for me. It is one thing to invent something new and another thing entirely to make these inventions accessible to the masses. For most of human history, art has always been heavily reliant on funding from either state institutions or wealthy individuals. Only kings and merchants could afford to get themselves depicted in a certain way by reknowned artists. The group of people has been an extremely small subset of the human population. There are notable exclusions in artistic depictions in terms of race, gender and class. While photography has somewhat addressed this, it shows the real subject, and has not been stylized in the same way as the kings of yore. With the emergence of latent diffusion models, I was driven to make art accessible to everyone, especially groups that had been neglected in the past. This is how I came up with 'Vulgarized Dreambooth'. I choose to use the term 'vulgarized' in the true sense of the word here, i.e. to make common. Dreambooth is the library that I have used to bring this project to reality.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project isn't a technical project but is a part of my creative studies. I wished to leverage my technical knowledge in training AI models to create things that bestowed an air of honor and grandeur on the subject being depicted; as if in a way to say that today, 'we are all kings and queens'. This train of thought is inspired by 2 things.
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, I see this as an extension to the teachings of sikhi. It connects with the concepts of the sarbat Khalsa, the first Amrit Sanchaar and is the reason sikhs take on the middle/last names of "Singh" and "Kaur". It is an act to remind the people who have been shown as helpless peasants that they too are sovereign. They too have autonomy and honor, and are no less than any king or queen sitting on a throne. 
+
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second is more in line with the objectives of democracy. Despite not having kings and queens ruling our lands anymore, we still struggle with depicting marginalized groups in media. This is a problem specifically in terms of race, gender and class. I chose to use vulargized dreambooth as a method to address these discrepancies. The commoner today is no less than the kings and queens depicted in classical art. We live in an age where the people make the decisions. It is only natural to have the kings, queens and enby rulers of today, to be depicted in the same light.   
+
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have shared the images I generated in digital format here but, the complete project involved converting these generated images into physical artworks. To do this I utilize polaroid pictures. The final step involves printing the digital artwork using a digital to analog film printer. Then, depending on what is desired, it could be given as a polaroid picture, be transferred to fine art mediums using emulsion lift techniques or have a layer of embroidery offered on top of the image. I have chosen to use polaroid film as the major medium here because I wish to draw comparisons to the advent of photography as an artform. I feel like a lot of the discussions today regarding the 'good' and 'bad' of AI generated art are similar to discussions around art that were had at that time. I have also chosen this because I can use polaroid film as a bridge reaching out to the past; and it affords me the ability to connect to artists from the past in terms of techniques and practice.
+            </p>  
+            <br>
+            <p class="text-white"><strong>NOTE:</strong> You will notice no women have been showcased here. This is a conscious choice that has been made by me since I am worried about the safety of women online. In light of how there is a culture of stalking, harassment and doxing on the internet today, and how the laws we have are woefully inadequete of addressing these issues, I do not want their images (especially public domain license ones) being made available online.</p>
+      
+        </div>
+      </section>
+
     <section id="contact" class= "bg-light">
+        <!-- Background Image provided by Nagy Arnold on Unsplash. Sourced from : https://unsplash.com/photos/pink-cherry-blossom-tree-under-clear-during-daytime-Y4Th0DPWUD0-->
         <div class="container">
             <div class="row">
                 <h3 id= "contactName" class="display-2 text-center py-5">Contact</h3>
@@ -283,37 +230,14 @@
                     <div class="card bg-light">
                         <div class="card-body text-center">
                             <div id= "profileHead" class= "d-flex col-lg-6 col-md-6 offset-md-3 offset-lg-3 bg-light">
-                                <img src="img/profile.jfif" alt="An image of a turbaned young man with a handlebar moustache." class="rounded-circle mb-3">
+                                <img src="img/00888-2002.png" alt="An image of a turbaned young man with a handlebar moustache." width="40%" height="40%" class="rounded-circle mb-3">
                             </div>
-                            <h2 class= "mt-2">Jangsher Dhaliwal</h2>
+                            <h2 class= "mt-2">Shahbaz Singh</h2>
                             <p class="lead">
-                            <strong> You could reach out to us via email or dm. <br> Please be mindful that it might take us 2-5 days to respond back due to the volume of messages we recieve. <br>
+                            <strong> You could reach out to us via email.
                             <br>
-                            Email:</strong> jd@jid.com
-                                    
+                            Email:</strong> shahbazsinghmansahia[at]gmail[dot]com                                    
                             </p>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-4">
-                                    <a href="http://facebook.com">
-                                    <i class="fa fa-facebook fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://twitter.com">
-                                    <i class="fa fa-twitter fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://instagram.com">
-                                    <i class="fa fa-instagram fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="https://www.whatsapp.com/">
-                                    <i class="fa fa-whatsapp fa-2x"></i>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
